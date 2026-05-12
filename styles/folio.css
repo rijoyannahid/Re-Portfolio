@@ -13,7 +13,10 @@
     max-width: 1140px ;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 
 /* Nav style */
@@ -130,4 +133,33 @@ nav ul {
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+
+/* skills section style */
+
+.text-center{
+    text-align: center;
+}
+
+.skills{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin: 130px;
+    
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px ;
+}
+
+.skill{
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.section-description{
+    padding: 45px ;
 }
