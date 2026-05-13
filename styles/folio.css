@@ -105,6 +105,8 @@ nav ul {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    
+
 
 }
 
@@ -162,4 +164,52 @@ nav ul {
 
 .section-description{
     padding: 45px ;
+}
+
+.resume{
+        border-radius: 10px;
+    padding: 130px 150px;
+    margin: 130px;
+    
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 120px;
+}
+
+.experience-description{
+    color: #757575;
+}
+.experience-subtitle{
+    color: #757575;
+}
+.experience-title{
+    color: #474747;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    padding: 130px 230px ;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px ;
+    margin-bottom: 24px;
+    border: none;
 }
